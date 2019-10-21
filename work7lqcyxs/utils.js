@@ -5,7 +5,6 @@ function bubbleSort(str){
         for(let j = 0;j < arr.length - i - 1;j++){
             sortLog.push([arr.concat(), [j, j + 1]])
             sortLog.push([arr.concat(), [j, j + 1]])
-            sortLog.push([arr.concat(), [j, j + 1]])
             if(arr[j] > arr[j + 1]){
                 [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]
                 sortLog.push([arr.concat(), [j, j + 1]])
@@ -36,7 +35,6 @@ function insertSort(str){
     let sortLog = []
     for(let i = 1; i < arr.length; i++){
         for(let j = i; j > 0; j--){
-            sortLog.push([arr.concat(), [j, j - 1]])
             sortLog.push([arr.concat(), [j, j - 1]])
             sortLog.push([arr.concat(), [j, j - 1]])
             if (arr[j - 1] > arr[j]){
