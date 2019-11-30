@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+.selyear {
+    margin: 0 auto;
+    width: 720px;
+}
+
+.preyear {
+    float: left;
+}
+
+.nextyear {
+    float: right;
+}
+
+.box {
+    margin: 0 auto;
+    width: 720px;
+}
+
+.title {
+    background: #ccc;
+}
+
+table {
+    height: 160px;
+    width: 160px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    font-family: arial;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
+}
