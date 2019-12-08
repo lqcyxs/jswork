@@ -1,3 +1,7 @@
+body{
+    background: url(luori.jpeg);
+}
+
 p {
     text-align: center;
     height: 100px;
