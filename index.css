@@ -1,7 +1,9 @@
-body{
-    background: url(luori.jpeg);
+body,h1,ul{
+    margin: 0;
+    padding: 0;
 }
 
+/*
 p {
     text-align: center;
     height: 100px;
@@ -44,4 +46,4 @@ a:hover {
 
 a:active {
     color: #ff1493;
-}
+}*/

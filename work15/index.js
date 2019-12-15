@@ -1,0 +1,21 @@
+ShopCart('cart',[{
+   name:'wed前端开发中级（上册）',
+   price:69.0,
+   num:1
+},
+{
+    name:'wed前端开发中级（下册）',
+    price:69.0,
+    num:3
+ },
+ {
+    name:'wed前端开发高级（上册）',
+    price:69.0,
+    num:1
+ },
+ {
+    name:'wed前端开发高级（下册）',
+    price:69.0,
+    num:4
+ }
+]);

@@ -1,0 +1,12 @@
+
+#box{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background-color: #ffc0cb;
+    color: #dda0dd;
+    border-radius: 60px;
+    cursor: pointer;
+}
