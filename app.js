@@ -54,7 +54,7 @@ app.post('/formBuilder', function (req, res) {
     let size = 5
     let maxpage = Math.ceil(ajaxData.length/size)
     result = {data:ajaxData.slice((page-1)*size,page*size),
-      maxpage:maxpage
+      maxPage:maxpage
     }
     res.json(result)
   })

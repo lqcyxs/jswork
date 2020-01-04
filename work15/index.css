@@ -1,3 +1,11 @@
+body {
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
 .cart {
     width: 700px;
     padding: 0 10px 10px;
@@ -96,7 +104,7 @@
 
 .cart-del:hover,
 .cart-all:hover,
-.cart-unall:hover{
+.cart-unall:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -127,4 +135,19 @@
     border: 1px solid #e40be4;
     border-radius: 5px 5px 5px 5px;
     padding: 6px 12px;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
 }

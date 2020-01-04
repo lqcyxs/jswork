@@ -1,4 +1,13 @@
-a:link,a:visited {
+body {
+    background-image: url(lqcq.jpg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+a:link,
+a:visited {
     color: #ff69b4;
     text-decoration: none;
 }

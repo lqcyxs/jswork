@@ -1,3 +1,11 @@
+body {
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
 .progress {
     display: inline-block;
     width: 200px;
@@ -15,4 +23,19 @@
     height: 100%;
     border-radius: 4px;
     background: #71c371;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
 }

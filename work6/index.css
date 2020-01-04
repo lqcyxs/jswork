@@ -1,8 +1,18 @@
-p{
+body {
+    background-image: url(lmy.jpeg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+p {
     font-size: 30px;
     color: #dc143c;
 }
-a:link,a:visited {
+
+a:link,
+a:visited {
     color: #ff69b4;
     text-decoration: none;
 }

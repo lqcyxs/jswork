@@ -1,0 +1,108 @@
+body {
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+.title {
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.banner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hot li {
+    float: left;
+}
+
+.dot {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.dot li {
+    display: block;
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgba(145, 144, 144, .5);
+    cursor: pointer;
+}
+
+.dot .on {
+    background-color: #fff;
+}
+
+.arrow {
+    display: none;
+}
+
+.arrow span {
+    display: block;
+    width: 25px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.arrow .prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -50px;
+}
+
+.arrow .next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -50px;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
+}

@@ -1,0 +1,51 @@
+body {
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+select {
+    width: 100px;
+    height: 150px
+}
+
+input[type=button] {
+    width: 50px
+}
+
+#title {
+    width: 40%;
+    text-align: center;
+}
+
+#opt {
+    margin: 90px 10px 0
+}
+
+.box {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #999999;
+}
+
+.box div {
+    float: left
+}
+
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
+}

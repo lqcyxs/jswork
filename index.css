@@ -6,57 +6,57 @@ h1 {
 }
 
 body {
-    background: url(images/luori.jpeg) no-repeat;
-    background-size: cover;
-    position: relative;
+    background: url(images/luori.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 62.5%;
+    text-align: center;
 }
-
+h1{font:bolder 40px '幼圆';display:block;color: #ffc0cb;position: absolute;;top: 30%;left: 27%;}
 /*---------------------------------------太极图-----------------*/
-#box {
-    position: absolute;
-    width: 1000px;
-    height: 100px;
-    top: 200px;
-    left: 259px;
-}
-
-#box .box {
+.box {
     position: relative;
-    width: 100px;
-    height: 50px;
-    background-color: #ffc0cb;
-    background-size: cover;
+    display: inline-block;
+    width: 6%;
+    padding-bottom: 3%;
+    background-color: rgb(147, 108, 91);
     border-width: 2px 2px 50px;
-    border-color: #00ffff;
+    border-color: rgba(54, 35, 28);
     border-style: solid;
     border-radius: 50%;
     animation: lqc 5s infinite linear;
 }
-
-#box .box::before {
+.box::before {
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 19%;
+    height: 38%;
     background-image: url(images/two.jpeg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: local;
     border-radius: 50%;
-    border: 15px solid #00ffff;
+    border: 13px solid rgba(147, 108, 91);
     top: 50%;
+    left: 51.5%;
 }
-
-#box .box::after {
+.box::after {
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 19%;
+    height: 38%;
     background-image: url(images/six.jpeg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: local;
     border-radius: 50%;
-    border: 15px solid #ffc0cb;
+    border: 15px solid rgba(54, 35, 28);
     top: 50%;
-    left: 50%;
+    right: 48.5%;
 }
+.one{margin:  12.5% 30% 5% 0%;}
+.two{margin:  12.5% 0% 5% 30%;}
 
 @keyframes lqc {
     0% {
@@ -68,72 +68,33 @@ body {
     }
 }
 
-#box .box:nth-child(1) {
-    float: left;
-}
-
-#box .box:nth-last-child(1) {
-    float: right;
-}
-
-/*---------------------------------------------------------*/
-#box h1 {
-    font-family: '幼圆';
-    color: #ffc0cb;
-    width: 700px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 46px;
-}
-
 /*-----------------------------------字体------------------------------------*/
 #font {
-    width: 550px;
-    height: 100px;
-    position: absolute;
-    top: 320px;
-    left: 485px;
+    width: 100%;
     text-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #ffc0cb, 0 0 80px #ffb6c1;
+    display: block;
+    position: absolute;
+    top: 10%;
 }
 
 #font .font-on {
+    width: 100%;
+    height:15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    font:bolder 40px '幼圆';
+    color: #ffc0cb;
 }
-
-#font .font-on span {
-    font-size: 30px;
-    padding: 0 0.5em;
-    font-weight: bold;
-    transform: rotateY(-90deg);
-    animation: yxs 5s forwards;
-    background-image: -webkit-linear-gradient(left, #c71585 0%, #ffc0cb 50%);
+#font .font-under{ width: 100%;height:15%;margin-top: 15%;}
+#font .font-under a{font:bolder 40px '幼圆';color: #ffc0cb;text-decoration: none;}
+#font .font-under a span{
+    background-image: -webkit-linear-gradient(left, #06869c 0%, #bdb10b 50%,#ee8181 100%);
     color: transparent;
     -webkit-background-clip: text;
+    padding: 0 5px;
 }
-
-#font .font-under {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-#font .font-under span {
-    font-size: 20px;
-    padding: 0 0.5em;
-    font-weight: bold;
-}
-
-#font .font-under a {
-    text-decoration: none;
-    transform: rotateY(-90deg);
-    animation: yxs 10s forwards;
-    background-image: -webkit-linear-gradient(left, #c71585 0%, #00ffff 50%);
-    color: transparent;
-    -webkit-background-clip: text;
-}
+#font .font-on span,
+#font .font-under a span{transform: rotateY(-90deg);animation: yxs 5s forwards;}
 
 @keyframes yxs {
     to {
@@ -141,21 +102,33 @@ body {
     }
 }
 
-/*#font .font-on span:nth-child(1),
-        #font .font-on span:nth-child(2),
-        #font .font-on span:nth-child(3),
-        #font .font-on span:nth-child(4),
-        #font .font-on span:nth-child(5),
-        #font .font-on span:nth-child(6),
-        #font .font-on span:nth-child(7),
-        #font .font-on span:nth-child(8),
-        #font .font-on span:nth-child(9) {
-            animation-delay: 1s;
-        }*/
-#font .font-on span {
+#font .font-on span:nth-child(1) {
     animation-delay: 1s;
 }
-
-#font .font-under a {
+#font .font-on span:nth-child(2) {
+    animation-delay: 1.5s;
+}
+#font .font-on span:nth-child(3) {
+    animation-delay: 2s;
+}
+#font .font-on span:nth-child(4) {
+    animation-delay: 2.5s;
+}
+#font .font-on span:nth-child(5) {
+    animation-delay: 3s;
+}
+#font .font-on span:nth-child(6) {
+    animation-delay: 3.5s;
+}
+#font .font-on span:nth-child(7) {
     animation-delay: 4s;
+}
+#font .font-on span:nth-child(8) {
+    animation-delay: 4.5s;
+}
+#font .font-on span:nth-child(9) {
+    animation-delay: 5s;
+}
+#font .font-under a span{
+    animation-delay: 1s;
 }

@@ -1,10 +1,13 @@
 body {
-  width: 1500px;
-  height: 1500px;
   text-align: center;
+  background-repeat:no-repeat ;
+  background-size:100% 100%;
+  background-attachment: fixed;
+  background-image: url(aoxiang.jpeg);
 }
 
-a:link,a:visited {
+a:link,
+a:visited {
   color: #ff69b4;
   text-decoration: none;
 }

@@ -1,10 +1,19 @@
-.box{
+body {
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+.box {
     width: 350px;
     height: 350px;
     border: 1px solid #ccc;
     position: relative;
 }
-.big{
+
+.big {
     width: 400px;
     height: 400px;
     position: absolute;
@@ -14,22 +23,41 @@
     overflow: hidden;
     display: none;
 }
-.mask{
+
+.mask {
     width: 175px;
     height: 175px;
-    background-color:rgba(red, green, blue, alpha);
+    background-color: rgba(red, green, blue, alpha);
     position: absolute;
     top: 0;
     left: 0;
     cursor: move;
     display: none;
 }
-.small{
+
+.small {
     position: relative;
 }
-.box img{
+
+.box img {
     vertical-align: top;
 }
-#bigBox img{
+
+#bigBox img {
     position: absolute;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
 }

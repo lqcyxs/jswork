@@ -1,5 +1,10 @@
 body {
     text-align: center;
+    background-image: url(../images/mingrenbangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
 }
 
 .selyear {
@@ -49,6 +54,6 @@ a:active {
     color: #ff1493;
 }
 
-span{
+span {
     cursor: pointer;
 }

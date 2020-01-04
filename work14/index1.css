@@ -1,4 +1,13 @@
-.box{
+body {
+    text-align: center;
+    background-image: url(../images/mingrenbangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
+}
+
+.box {
     width: 250px;
     height: 52px;
     padding: 15px 30px;
@@ -7,7 +16,7 @@
     margin: 0 auto;
 }
 
-.box .count{
+.box .count {
     width: 60px;
     color: #666;
     font-size: 280%;
@@ -17,7 +26,7 @@
     border: 1px solid #fff;
 }
 
-.box div{
+.box div {
     margin-left: 5px;
     float: left;
     width: 50px;
@@ -26,18 +35,33 @@
     border: 1px solid #666;
 }
 
-.gray{
-    background-color:#eee ;
+.gray {
+    background-color: #eee;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.yellow{
+.yellow {
     background-color: yellow;
 }
 
-.green{
+.green {
     background-color: #26ff00;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
 }

@@ -1,5 +1,10 @@
 body {
     margin-top: 20px;
+    background-image: url(../images/jinxiubangone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #ff69b4;
 }
 
 .box-body {
@@ -86,4 +91,19 @@ input:hover::-webkit-input-placeholder {
     line-height: 30px;
     margin-bottom: 10px;
     padding: 0 10px;
+}
+
+a:link,
+a:visited {
+    color: #ff69b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc0cb;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff1493;
 }
